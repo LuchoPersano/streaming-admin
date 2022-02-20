@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+	<!--FONTAWESOME-->
+	<script src="https://kit.fontawesome.com/2e16f541ef.js" crossorigin="anonymous"></script>
+	
+	<!---------------------------------------->
+	<!---------FUENTES------------------------>
+	<!---------------------------------------->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Staatliches&display=swap" rel="stylesheet">
+
+	<link rel="shortcut icon" href="img/LOGO.png">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Admin- El Faro En Vivo</title>
+</head>
+<body>
+	<header class="header">
+		<div class="header-logo">
+			<img src="img/LOGO.png" class="header-logo_img" alt="Logo de la iglesia el FARO">
+			<h1 class="header-logo_text">IGLESIA EL FARO</h1>
+		</div>
+		<nav class="nav">
+			<ul class="nav_ul">
+				<a href="https://youtube.com" target="blank" class="nav-a yt"><li class="nav-li"><i class="fab fa-youtube"></i> Youtube</li></a>
+				<a href="https://facebook.com" target="blank" class="nav-a fb"><li class="nav-li"><i class="fab fa-facebook"></i> Facebook</li></a>
+				<a href="https://www.youtube.com/channel/UCiJd2ArjM9VWWbpzoO2QsPg" target="blank" class="nav-a yt"><li class="nav-li"><i class="fab fa-youtube"></i> Canal de youtube</li></a>
+				<a href="https://www.facebook.com/iglesiaelfaroelbolson" target="blank" class="nav-a fb"><li class="nav-li"><i class="fab fa-facebook"></i> Página de facebook</li></a>
+			</ul>
+		</nav>
+		<div onclick="openMobileNav()" class="open-mobile-nav-btn">
+			<i class="fas fa-bars"></i>
+		</div>
+		<div class="close-mobile-nav-btn" onclick="closeMobileNav()">
+			<i class="fas fa-times"></i>
+		</div>
+		<nav class="mobile-nav">
+			<ul class="mobile-nav_ul">
+				<a href="https://youtube.com" target="blank" class="mobile-nav-a yt"><li class="mobile-nav-li"><i class="fab fa-youtube"></i> Youtube</li></a>
+				<a href="https://facebook.com" target="blank" class="mobile-nav-a fb"><li class="mobile-nav-li"><i class="fab fa-facebook"></i> Facebook</li></a>
+				<a href="https://www.youtube.com/channel/UCiJd2ArjM9VWWbpzoO2QsPg" target="blank" class="mobile-nav-a yt"><li class="mobile-nav-li"><i class="fab fa-youtube"></i> Canal de youtube</li></a>
+				<a href="https://www.facebook.com/iglesiaelfaroelbolson" target="blank" class="mobile-nav-a fb"><li class="mobile-nav-li"><i class="fab fa-facebook"></i> Página de facebook</li></a>
+			</ul>
+		</nav>
+	</header>
+	<div class="container">
+		<div class="yt-section section">
+			<h2>Youtube</h2>
+			<div class="yt-video-container">
+			<iframe width="533" height="300" src="https://www.youtube.com/embed/TFYnIrWCiQk?autoplay=1&mute=1&loop=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+			<div class="expandir-btn-container yt">
+				<div class="expandir-btn yt">Expandir</div>
+			</div>
+		</div>
+		<div class="fb-section section">
+			<h2>Facebook</h2>
+			<div class="fb-video-container">
+				<iframe src="https://www.facebook.com/plugins/video.php?height=314&href=https%3A%2F%2Fwww.facebook.com%2Figlesiaelfaroelbolson%2Fvideos%2F193762429630101%2F&show_text=false&width=560&t=0" width="560" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+			</div>
+		</div>
+	</div>
+	<script src="main.js"></script>
+</body>
